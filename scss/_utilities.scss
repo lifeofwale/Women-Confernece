@@ -1,0 +1,131 @@
+.text-top-padding{
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+.text-large{
+    font-size: 6.8rem;
+    font-weight: 700;
+    line-height: 7.8rem;
+}
+
+.text-large-2{
+    font-size: 6.8rem;
+    font-weight: 700;
+    line-height: 5.8rem;
+    padding-top:1rem;
+    @media only screen and (max-width:600px) {
+        font-size: 3rem;
+        padding-top:.5rem;
+        line-height: 1.8rem;
+    }
+}
+.text-medium{
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 7.8rem;
+}
+
+.normal-text{
+    font-size: 1.6rem;
+    font-weight:100 lighter;
+    color:#fff;
+    position: relative;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: .8px;
+}
+.text-arrow{
+    font-size: 1.6rem;
+    font-weight:100 lighter;
+    color:#fff;
+    position: relative;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-left: 6rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    &::before{
+        content: "";
+        display: block;
+        width: 4.5rem;
+        height: 1px;
+        background-color: #fed330;
+        position: absolute;
+        left: 6px;
+        top: 50%;
+    }
+}
+.arrow--before::before{
+    content: "";
+    display: block;
+    width: 6.5rem;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 6px;
+    top: 2.7rem;
+}
+.arrow--before-m::before{
+    content: "";
+    display: block;
+    width: 6.5rem;
+    height: 1px;
+    background-color: #15005D;
+    position: absolute;
+    left: 6px;
+    top: 2.7rem;
+}
+.btn__reg{
+    height: 4.8rem;
+    width: 300px;
+    font-size: 1.8rem;
+    color:#333;
+    position: relative;
+    background-color: transparent;
+    z-index: 20;
+    line-height: 38px;
+    color:#fff !important;
+    &::before{
+        content: "";
+        width: 50%;
+        height: 100%;
+        background-color:#fed330;
+        position: absolute;
+        left: 0;
+        top:0;
+        z-index: -1;
+        will-change: width;
+    }
+    &:hover::before{
+        width: 100%;
+    }
+    &::before{
+       transition: width .3s ease-in;
+    }
+    &:hover::before{
+        transition-duration: .1.5s;
+    }
+}
+.btn__submitdetails{
+    height: 4.8rem;
+    width: 300px;
+    font-size: 1.8rem;
+    background-color:#fed330;
+    color:#fff;
+}
+
+.form-space{
+    margin-bottom:2rem;
+    @media only screen and (max-width:600px){
+        margin-bottom: 1.3rem;
+    }
+}
+.subscribe__img{
+    position: absolute;
+    top:60%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+}
