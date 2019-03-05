@@ -45,7 +45,8 @@ body{
       
       }
       &__section:nth-child(4) {
-        background: azure;color: white;
+        background: #fed330;
+        color:#15005D;
       }
 
       &__link:link,&__link:visited{
@@ -101,6 +102,12 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+&__container--4{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
      &__aboutbox{
          p{
