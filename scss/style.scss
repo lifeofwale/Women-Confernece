@@ -308,3 +308,41 @@ body{
     transform: scaleX(1);
   }
   
+ a.tbn__account {
+    display: inline-block;
+    position: relative;
+    color: #343434;
+    text-decoration: none;
+    padding: 0 6px;
+    &:before, &:after {
+      will-change: transform;
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: -1;
+    }
+    &:before {
+      transition: 100ms ease-out 50ms;
+      transform-origin: 0 24px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 40%;
+      background: mix(#f1f1f1, #fff, 80%);
+    }
+    
+    &:hover {
+      &:before {
+        transition: 100ms ease-out;
+        transform: scaleY(.18);
+        background: mix(#f1f1f1, #0077ff, 60%);
+      }
+    }
+    &:active {
+      &:before {
+        transition: 100ms ease-in;
+        background: mix(#f1f1f1, #0077ff, 40%);
+      }
+     
+    }
+  }
