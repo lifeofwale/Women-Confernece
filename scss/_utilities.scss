@@ -30,6 +30,11 @@
     font-size: 3.8rem;
     font-weight: 700;
     line-height: 7.8rem;
+    @media only screen and (max-width:414px) {
+        font-size: 2rem;
+        padding-top:.5rem;
+        line-height: 6.8rem;
+    }
 }
 
 .normal-text{
@@ -44,6 +49,7 @@
     letter-spacing: .8px;
     @media only screen and (max-width:600px) {
         font-size: 1.3rem;
+  
     }
 }
 .text-arrow{
@@ -138,4 +144,9 @@
     top:60%;
     left: 69%;
     transform: translate(-50%,-50%);
+}
+.font-big{
+    font-size:21px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }

@@ -84,7 +84,17 @@ body{
       }
      &__container--1{
          height: calc(100vh - 90px);
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%,-50%);
      }
+     &__container--2{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+  }
      &__aboutbox{
          p{
              font-size: 1.8rem;
@@ -183,7 +193,7 @@ body{
   
   .scroll-link {
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
