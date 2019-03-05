@@ -1,11 +1,17 @@
 .text-top-padding{
-    padding-top:5rem;
-    padding-bottom:5rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    @media only screen and (max-width:900px){
+        padding-bottom:.5rem;
+  }
 }
 .text-large{
     font-size: 6.8rem;
     font-weight: 700;
     line-height: 7.8rem;
+    @media only screen and (max-width:900px){
+        line-height: 7.8rem;
+  }
 }
 
 .text-large-2{

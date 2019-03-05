@@ -6,12 +6,11 @@
 html{
     font-size: 10px;
      scroll-behavior: smooth;
+     @media only screen and (max-width:900px){
+      font-size: 8px;
 }
-@media only screen and (max-width:900px){
-    html{
-        font-size: 8px;
-    }
 }
+
 body{
     font-size: 1.6rem;
     font-weight: 300;
