@@ -32,8 +32,8 @@ body{
         overflow: hidden;
     }
     &__section:nth-child(1){
-        background: #15005D;
-        color: #00FFFF;
+      background-color: #7f53ac;
+    color:#fff;
     }
     &__section:nth-child(2){
             background:#fff;
@@ -238,8 +238,7 @@ body{
         height: 600px;
         border-radius: 30% 70% 30% 100%;
         background-color: #ecf3ff;
-        background-image: -webkit-gradient(linear,left top,left bottom,from(#ecf3ff),to(#fff));
-        background-image: linear-gradient(180deg,#ecf3ff,#fff);
+        background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
   }
 
   .inputName {
