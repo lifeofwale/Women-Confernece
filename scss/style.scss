@@ -40,11 +40,12 @@ body{
             color:#15005D;
     }
     &__section:nth-child(3) {
-        background: azure;color: white;
+      background:#fff;
+      color: #15005D;
+      
       }
       &__section:nth-child(4) {
-        background:#fff;
-        color: #15005D;
+        background: azure;color: white;
       }
 
       &__link:link,&__link:visited{
@@ -95,6 +96,12 @@ body{
       top: 50%;
       transform: translate(-50%,-50%);
   }
+  &__container--3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
      &__aboutbox{
          p{
              font-size: 1.8rem;
@@ -245,9 +252,10 @@ body{
     position: absolute;
     top: 16px;
     left: 0;
-    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight:100 lighter;
     color: #9098a9;
-    font-weight: 500;
+    font-weight: 300;
     transform-origin: 0 0;
     transition: all 0.2s ease;
   }
